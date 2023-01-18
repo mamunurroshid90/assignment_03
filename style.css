@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 90%;
+  margin: auto;
+}
+header ul li {
+  padding: 20px;
+  color: #777777;
+  font-size: 18px;
+}
+
+.navbar-brand {
+  color: #4a4a4a;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+header .btn {
+  color: #289bde;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.hero-section {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+.bg-color img {
+  background: rgb(25, 25, 25);
+  background-blend-mode: multiply;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 85px;
+}
+
+.carousel-item .carousel-caption {
+  padding-bottom: 200px;
+}
+
+.course-section {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 130px;
+}
+
+.course-heading {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.course-single {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.course-single img {
+  width: 200px;
+  height: 200px;
+}
+
+.course-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 24px;
+  padding-bottom: 50px;
+}
+
+.see-more-btn {
+  text-align: center;
+}
+
+.learning-section {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 130px;
+}
+
+.learning-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  background: #f4fafd;
+}
+
+.learning-info .course-member {
+  display: flex;
+  align-items: center;
+}
+
+.register-section {
+  width: 90%;
+  margin: auto;
+  background: #289bde;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 100px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.register-btn button {
+  color: #289bde;
+  font-weight: 600;
+}
+
+.success-section {
+  width: 90%;
+  margin: auto;
+  padding: 130px 0px;
+}
+
+.student img {
+  width: 312px;
+  height: 300px;
+}
+
+.student {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.student-info {
+  padding: 20px 0px 20px 20px;
+}
+
+.feedback-section {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 130px;
+}
+
+.feedback-info {
+  width: 45%;
+}
+
+.feedback-section img {
+  width: 42px;
+  height: 42px;
+}
+
+.feedback-section span {
+  margin-top: -10px;
+}
+
+.asked-questions {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 130px;
+  text-align: center;
+}
+
+.company-section {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 130px;
+}
+
+.company-section img {
+  /* width: 180px; */
+  height: 25px;
+}
+
+.fa-brands {
+  width: 40px;
+  height: 40px;
+}
